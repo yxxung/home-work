@@ -1,0 +1,26 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+  width: 250px;
+  height: 37px;
+  background-color: #CCC;
+  border-radius: 37px;
+  margin: 12px 0 0 0;
+}
+
+.logo {
+  background: url(./images/validation_icon\ 2.png) no-repeat 16px 10px;
+  font-size: 14px;
+  padding: 8px 0 0 16px;
+  font-weight: 500;
+}
+
+.logo a {
+  display: block;
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
