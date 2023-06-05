@@ -1,0 +1,47 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.web-term {
+  width: 250px;
+  height: 259px;
+  /* background-color: #CCC; */
+  padding: 16px;
+  border-radius: 5px;
+  border: solid 1px #A3A3A3;
+  background: linear-gradient(45deg, rgba(216,216,217,1) 0%, rgba(245,244,244,1) 0%, rgba(208,206,206,1) 100%);
+  font-size: 15px;
+}
+
+.web-term p {
+  font-weight: 900;
+  font-size: 18px;
+  margin: 0 0 16px 0;
+}
+
+.web-term dd {
+  margin-left: 0;
+  line-height: 1.5;
+}
+
+.web-term .first-img {
+  float: left;
+  height: 88px;
+  margin-right: 16px;
+}
+
+.web-term .second-img {
+  height: 88px;
+  float: right;
+  margin-left: 16px;
+}
+
+.title {
+  color: #296897;
+  font-weight: 800;
+}
+
+.content {
+  height: 63px;
+  margin-top: 8px;
+}
