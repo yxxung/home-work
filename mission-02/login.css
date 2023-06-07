@@ -50,6 +50,10 @@
   position: relative;
 }
 
+.form__input__group:first-child {
+  margin-bottom: 5.5px;
+}
+
 .formInput__label {
   width: 56px;
   height: 24px;
@@ -71,6 +75,7 @@
   position: absolute;
   right: 0;
 }
+
 .formInput__input::placeholder {
   color: #7A7A7A;
 }
