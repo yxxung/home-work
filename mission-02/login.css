@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+/* 전체 div */
 .login {
   width: 244px;
   height: 161px;
@@ -12,6 +13,7 @@
   padding: 12px;
 }
 
+/* 로그인 제목 */
 .login__title {
   width: 49px;
   height: 23px;
