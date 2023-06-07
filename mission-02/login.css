@@ -1,0 +1,112 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+.login {
+  width: 244px;
+  height: 161px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  box-shadow: 5px 5px 0px #AAAAAA;
+  padding: 12px;
+}
+
+.login__title {
+  width: 49px;
+  height: 23px;
+  color: #FFFF00;
+  font-size: 15px;
+  line-height: 22.5px;
+  margin: 0 0 8px 0;
+}
+
+/* form 그룹을 감싸는 흰 박스 */
+.login__container {
+  width: 220px;
+  height: 106px;
+  max-height: 106px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.loginForm {
+  width: 220px;
+  height: 69px;
+  padding: 8px;
+  position: relative;
+}
+
+.login__form__group {
+  height: 61px;
+  border-bottom: 1px solid #A3A3A3;
+}
+
+.form__input__group {
+  width: 146px;
+  height: 24px;
+  position: relative;
+}
+
+.formInput__label {
+  width: 56px;
+  height: 24px;
+  font-size: 13px;
+  line-height: 21px;
+  position: absolute;
+  left: 0;
+}
+
+.formInput__input {
+  display: block;
+  width: 90px;
+  height: 24px;
+  line-height: 21px;
+  background: transparent;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+}
+.formInput__input::placeholder {
+  color: #7A7A7A;
+}
+
+.loginButton {
+  width: 50px;
+  height: 53px;
+  background-color: #ED552F;
+  color: #fff;
+  padding: 4px;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 8px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -26px;
+}
+
+/* 회원가입, 아이디/비밀번호 찾기 */
+.memberAccess {
+  padding: 4px 8px;
+  font-size: 13px;
+}
+
+.memberAccess a {
+  height: 28px;
+  line-height: 28px;
+  background: url(./images/vector.png) no-repeat 0 50%/ 13px 13px;
+  text-decoration: none;
+  color: #181818;
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+.member__signup {
+  float: left;
+}
+.member__findInfo {
+  float: right;
+}
