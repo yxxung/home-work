@@ -9,8 +9,8 @@ grid를 이용한 콘텐츠 구현하기
 ## 소개
 ### 마크업
 ```
-<div class="news">
-    <section class="news-title">새소식</section>
+<section class="news">
+    <h1 class="news-title">새소식</h1>
     <a class="news-more" href="/">더보기</a>
 
     <div class="division"></div>
@@ -25,7 +25,7 @@ grid를 이용한 콘텐츠 구현하기
       <p class="paragraph-date">2022.07.18</p>
       <p class="paragraph-content">디자인 및 다양한 view 환경을 고려하여 구성되어 있으며, 기존보다 최신 정보 및 개발자를 위한 기술 가이드도 찾기 쉽도록 구성되어 있습니다.</p>
     </div>
-  </div>
+  </section>
 ```
 - news에 diplay: grid; 속성을 줄 것입니다. 따라서 총 5개의 콘텐츠로 나눴습니다.
 - 새소식, 더보기, 구분선, 이미지 컨테이너, 글 컨테이너로 나눴습니다.
