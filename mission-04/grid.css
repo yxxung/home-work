@@ -2,35 +2,41 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-/* 전체 박스 */
-.newContent {
+/* 전체 영역 */
+.news {
   width: 380px;
   color: #181818;
-}
-
-/* 상위 박스 */
-.newContent-top-wrapper {
-  font-size: 14px;
-  line-height: 150%;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: auto;
 }
 
-.newcontent-title {
+/* 새소식 */
+.news-title {
   font-weight: 700;
   color: #ED552F;
-  grid-area: 1/1/1/2;
+  grid-area: 1/1/2/2;
+  font-size: 13px;
+  line-height: 150%;
 }
 
-.newcontent-more {
-  background: url(./assets/Union.png) no-repeat 0 50% / 14px 14px;
-  display: block;
-  text-align: right;
-  text-decoration: none;
+/* 더보기 */
+.news-more {
+  font-size: 13px;
   font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
   color: #000;
-  grid-area: 1/7/1/8;
+  grid-area: 1/10/2/11;
+  position: relative;
+}
+
+.news-more::before {
+  content: url(./assets/Union.png);
+  position: absolute;
+  height: 16px;
+  top: 2px;
+  right: 41px;
 }
 
 /* 구분선 */
@@ -38,33 +44,31 @@
   margin: 12px 0;
   height: 1px;
   background: linear-gradient(90deg, #A9A9A9 -1.32%, #FFFFFF 100%);
+  grid-area: 2/1/3/11;
 }
 
-/* 하위 박스 */
-.newContent-bottom-wrapper {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: auto;
-}
-
-.bottom-wrapper-image {
+/* 이미지 컨테이너 */
+.news-image-wrapper {
   text-align: center;
-  grid-area: 1/1/1/2;
+  grid-area: 3/1/4/4;
+  margin-top: 12px;
 }
 
-.bottom-wrapper-image img {
+.news-image-wrapper img {
   box-shadow: 0px 15px 15px 5px #AAAAAA;
 }
 
-.bottom-wrapper-image p {
-  margin: 10px 0 0 0;
+.news-image-wrapper p {
+  margin: 10px auto 0 auto;
   font-size: 13px;
 }
 
-.bottom-wrapper-paragraph {
+/* 글 컨테이너 */
+.news-paragraph-wrapper {
   text-align: justify;
   line-height: 150%;
-  grid-area: 1/3/2/11;
+  grid-area: 3/4/4/11;
+  margin: 12px 0 0 12px;
 }
 
 .paragraph-title {
