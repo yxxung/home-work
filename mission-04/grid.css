@@ -51,18 +51,18 @@
 
 /* 이미지 컨테이너 */
 .news-image-wrapper {
-  text-align: center;
   grid-area: 3/1/4/4;
-  margin-top: 12px;
+  margin: 12px 0 0 0;
 }
 
-.news-image-wrapper img {
+.news-image-wrapper .news-image {
   box-shadow: 0px 15px 15px 5px #AAAAAA;
 }
 
-.news-image-wrapper p {
-  margin: 10px auto 0 auto;
+.news-image-wrapper .news-image-caption {
+  margin-top: 10px;
   font-size: 13px;
+  text-align: center;
 }
 
 /* 글 컨테이너 */
