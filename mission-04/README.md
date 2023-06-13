@@ -49,6 +49,7 @@ grid를 이용한 콘텐츠 구현하기
 - 전체 영역에 grid 속성을 부여하고 총 width가 380px 이므로, .news-title에 해당하는 37px와 gap: 1px를 설정하여 총 10칸으로 나눴습니다.
 
 <br />
+
 #### 새소식, 더보기
 ```
 .news-title {
@@ -81,6 +82,7 @@ grid를 이용한 콘텐츠 구현하기
 - 더보기의 +버튼은 a태그에 직접적으로 background-image로 삽입 시 요소 width가 늘어나 grid 시스템을 벗어나게 됩니다. 따라서 before 가상 요소 선택자를 이용해 content로 삽입 후 position으로 위치를 조정해줬습니다.
 
 <br />
+
 #### 이미지 컨테이너
 ```
 .news-image-wrapper {
@@ -101,6 +103,7 @@ grid를 이용한 콘텐츠 구현하기
 - 이미지와 이미지에 대한 설명을 감싸는 전체 컨테이너에 grid-area 속성을 주어 배치했습니다.
 
 <br />
+
 #### 글 컨테이너
 ```
 .news-paragraph-wrapper {
