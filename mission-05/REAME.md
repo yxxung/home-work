@@ -147,6 +147,7 @@ sprite 기법을 활용한 콘텐츠 구현하기
 - 공통 스타일로 리스트 스타일을 만들고, 각 li태그 마다 content 속성을 이용해 번호를 넣어줬습니다.
 
 <br />
+
 #### ranking
 ```
 .favorite__list li::after {
