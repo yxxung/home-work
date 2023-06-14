@@ -61,14 +61,6 @@ body {
   align-items: center;
 }
 
-.favorite__list li::after {
-  content: "";
-  display: block;
-  width: 9px;
-  height: 11px;
-  background-image: url(./assets/rank.png);
-}
-
 .favorite__list li a {
   flex-grow: 2;
   padding-left: 4px;
@@ -78,6 +70,7 @@ body {
   color: inherit;
 }
 
+/* 리스트 스타일 */
 .w3c::before, .web::before, .css::before, .mdn::before {
   width: 12px;
   height: 12px;
@@ -101,6 +94,15 @@ body {
 }
 .mdn::before {
   content: "4";
+}
+
+/* 랭킹 */
+.favorite__list li::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 11px;
+  background-image: url(./assets/rank.png);
 }
 
 .w3c::after {
