@@ -11,14 +11,14 @@ sprite 기법을 활용한 콘텐츠 구현하기
 ```
 <section class="favorite">
     <h2 class="favorite__title">인기 <span>사이트</span></h2>
-    <a class="favorite__more" href="/">더보기</a>
     <ol class="favorite__list">
       <li class="w3c"><a href="/">W3C</a></li>
       <li class="web"><a href="/">Web Standards</a></li>
       <li class="css"><a href="/">CSS ZenGarden</a></li>
       <li class="mdn"><a href="/">MDN</a></li>
     </ol>
-  </section>
+    <a class="favorite__more" href="/">더보기</a>
+</section>
 ```
 - 전체 영역을 section, 그 아래에 제목을 나타내는 h2와 a태그인 더보기, 인기 사이트 리스트는 ol > li 로 마크업했습니다.
 - 사이트 이동이 가능하게 li 태그 안 a 태그를 사용했습니다.
