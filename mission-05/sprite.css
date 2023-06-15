@@ -35,13 +35,8 @@ body {
   top: 12px;
   right: 12px;
   color: #181818;
-}
-
-.favorite__more::before {
-  content: url(./assets/Union.png);
-  position: absolute;
-  top: 2px;
-  right: 43px;
+  background: url(./assets/Union.png) no-repeat 0 50%;
+  padding-left: 20px;
 }
 
 /* 리스트 */
@@ -71,7 +66,7 @@ body {
 }
 
 /* 리스트 스타일 */
-.favorite__list li::before {
+/* .favorite__list li::before {
   width: 12px;
   height: 12px;
   background: #A3A3A3;
@@ -94,6 +89,9 @@ body {
 }
 .mdn::before {
   content: "4";
+} */
+.favorite__list li {
+  counter-increment: chapter;
 }
 
 /* 랭킹 */
