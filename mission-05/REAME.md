@@ -118,7 +118,7 @@ sprite 기법을 활용한 콘텐츠 구현하기
 
 #### list-style
 ```
-.w3c::before, .web::before, .css::before, .mdn::before {
+.favorite__list li::before {
   width: 12px;
   height: 12px;
   background: #A3A3A3;
