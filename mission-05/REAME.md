@@ -49,17 +49,11 @@ sprite 기법을 활용한 콘텐츠 구현하기
   top: 12px;
   right: 12px;
   color: #181818;
-}
-
-.favorite__more::before {
-  content: url(./assets/Union.png);
-  position: absolute;
-  top: 2px;
-  right: 43px;
+  background: url(./assets/Union.png) no-repeat 0 50%;
+  padding-left: 20px;
 }
 ```
 - 전체 영역에 position: relative 속성을 부여하여 더보기 영역이 우측 상단에 위치할 수 있도록 했습니다.
-- ::before 가상 요소 선택자를 이용하여 + 버튼을 만들어줬습니다.
 
 <br />
 
