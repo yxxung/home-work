@@ -11,14 +11,14 @@ sprite 기법을 활용한 콘텐츠 구현하기
 ```
 <section class="favorite">
     <h2 class="favorite__title">인기 <span>사이트</span></h2>
-    <a class="favorite__more" href="/">더보기</a>
     <ol class="favorite__list">
       <li class="w3c"><a href="/">W3C</a></li>
       <li class="web"><a href="/">Web Standards</a></li>
       <li class="css"><a href="/">CSS ZenGarden</a></li>
       <li class="mdn"><a href="/">MDN</a></li>
     </ol>
-  </section>
+    <a class="favorite__more" href="/">더보기</a>
+</section>
 ```
 - 전체 영역을 section, 그 아래에 제목을 나타내는 h2와 a태그인 더보기, 인기 사이트 리스트는 ol > li 로 마크업했습니다.
 - 사이트 이동이 가능하게 li 태그 안 a 태그를 사용했습니다.
@@ -49,17 +49,11 @@ sprite 기법을 활용한 콘텐츠 구현하기
   top: 12px;
   right: 12px;
   color: #181818;
-}
-
-.favorite__more::before {
-  content: url(./assets/Union.png);
-  position: absolute;
-  top: 2px;
-  right: 43px;
+  background: url(./assets/Union.png) no-repeat 0 50%;
+  padding-left: 20px;
 }
 ```
 - 전체 영역에 position: relative 속성을 부여하여 더보기 영역이 우측 상단에 위치할 수 있도록 했습니다.
-- ::before 가상 요소 선택자를 이용하여 + 버튼을 만들어줬습니다.
 
 <br />
 
